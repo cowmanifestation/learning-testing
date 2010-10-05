@@ -1,0 +1,10 @@
+<html>
+  <% @recipe = to_title(@recipe) %>
+  <head>
+    <h1><%= "#{@recipe}" %></h1>
+  </head>
+  <body>
+    <p><%= "#{store.transaction { store[@recipe]}}" %></p>
+    <a href= "/">Back to Recipes</a>
+  </body>
+</html>
