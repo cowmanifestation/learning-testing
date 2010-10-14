@@ -18,12 +18,11 @@ class AppTest < Test::Unit::TestCase
   end
 
   def setup
-    file = File.new("recipes.store", "a+")
-    file.close
+    ARGV[0] = "test.store"
   end
 
   def teardown
-    File.delete("recipes.store")
+    File.delete("test.store")
   end
 
   def create_and_submit_recipe(title="Cherry Pie", recipe="Is the Best!")
@@ -38,7 +37,7 @@ class AppTest < Test::Unit::TestCase
 
   def test_it_works
     visit "/"
-    assert_contain("Welcome to the Pie List!")
+    assert_contain("Welcome to the Cookbook!")
   end
 
   def test_form_entry

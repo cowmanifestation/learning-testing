@@ -1703,3 +1703,141 @@ D, [2010-10-04T23:27:40.875000 #2236] DEBUG -- : REQUESTING PAGE: GET /entry wit
 D, [2010-10-04T23:27:40.890625 #2236] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Is the Best!", "Title"=>"Cherry Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
 D, [2010-10-04T23:27:40.890625 #2236] DEBUG -- : REQUESTING PAGE: GET /Cherry-Pie with {} and HTTP headers {"HTTP_REFERER"=>"/"}
 D, [2010-10-04T23:27:40.890625 #2236] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/Cherry-Pie"}
+D, [2010-10-13T23:34:03.480011 #1776] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-13T23:34:03.620636 #1776] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:03.620636 #1776] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:03.620636 #1776] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:34:03.636261 #1776] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:03.636261 #1776] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:03.636261 #1776] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"C"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:03.651886 #1776] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:03.651886 #1776] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"B"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:03.651886 #1776] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:03.651886 #1776] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"Boo"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:03.667511 #1776] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:34:03.667511 #1776] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Put some apples in a crust and bake!", "Title"=>"Apple Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:03.683136 #1776] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-13T23:34:03.683136 #1776] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-13T23:34:03.698761 #1776] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:03.698761 #1776] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:34:03.714386 #1776] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Is the Best!", "Title"=>"Cherry Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:03.714386 #1776] DEBUG -- : REQUESTING PAGE: GET /Cherry-Pie with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:03.714386 #1776] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:34:03.730011 #1776] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Is the Best!", "Title"=>"Cherry Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:03.730011 #1776] DEBUG -- : REQUESTING PAGE: GET /Cherry-Pie with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:03.730011 #1776] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/Cherry-Pie"}
+D, [2010-10-13T23:34:12.042511 #828] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-13T23:34:12.073761 #828] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:12.073761 #828] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:12.073761 #828] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:34:12.089386 #828] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:12.089386 #828] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:12.089386 #828] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"C"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:12.089386 #828] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:12.105011 #828] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"B"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:12.105011 #828] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:12.105011 #828] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"Boo"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:12.120636 #828] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:34:12.120636 #828] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Put some apples in a crust and bake!", "Title"=>"Apple Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:12.120636 #828] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-13T23:34:12.136261 #828] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-13T23:34:12.151886 #828] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:12.151886 #828] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:34:12.151886 #828] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Is the Best!", "Title"=>"Cherry Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:12.167511 #828] DEBUG -- : REQUESTING PAGE: GET /Cherry-Pie with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:12.167511 #828] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:34:12.167511 #828] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Is the Best!", "Title"=>"Cherry Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:12.183136 #828] DEBUG -- : REQUESTING PAGE: GET /Cherry-Pie with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:12.183136 #828] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/Cherry-Pie"}
+D, [2010-10-13T23:34:15.261261 #1852] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-13T23:34:15.292511 #1852] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:15.292511 #1852] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:15.292511 #1852] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:34:15.292511 #1852] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:15.308136 #1852] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:15.308136 #1852] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"C"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:15.308136 #1852] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:15.308136 #1852] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"B"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:15.323761 #1852] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:15.323761 #1852] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"Boo"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:15.323761 #1852] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:34:15.339386 #1852] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Put some apples in a crust and bake!", "Title"=>"Apple Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:15.339386 #1852] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-13T23:34:15.355011 #1852] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-13T23:34:15.370636 #1852] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:15.370636 #1852] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:34:15.370636 #1852] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Is the Best!", "Title"=>"Cherry Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:15.386261 #1852] DEBUG -- : REQUESTING PAGE: GET /Cherry-Pie with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:15.386261 #1852] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:34:15.386261 #1852] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Is the Best!", "Title"=>"Cherry Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:34:15.401886 #1852] DEBUG -- : REQUESTING PAGE: GET /Cherry-Pie with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:34:15.401886 #1852] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/Cherry-Pie"}
+D, [2010-10-13T23:35:47.370636 #272] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-13T23:35:47.386261 #272] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:35:47.386261 #272] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:35:47.386261 #272] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:35:47.401886 #272] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:35:47.401886 #272] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:35:47.401886 #272] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"C"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:35:47.417511 #272] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:35:47.417511 #272] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"B"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:35:47.417511 #272] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:35:47.417511 #272] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"Boo"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:35:47.433136 #272] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:35:47.433136 #272] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Put some apples in a crust and bake!", "Title"=>"Apple Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:35:47.448761 #272] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-13T23:35:47.448761 #272] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-13T23:35:47.464386 #272] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:35:47.464386 #272] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:35:47.480011 #272] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Is the Best!", "Title"=>"Cherry Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:35:47.480011 #272] DEBUG -- : REQUESTING PAGE: GET /Cherry-Pie with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:35:47.480011 #272] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-13T23:35:47.495636 #272] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Is the Best!", "Title"=>"Cherry Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-13T23:35:47.495636 #272] DEBUG -- : REQUESTING PAGE: GET /Cherry-Pie with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-13T23:35:47.495636 #272] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/Cherry-Pie"}
+D, [2010-10-14T17:38:01.125000 #3636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-14T17:38:01.375000 #3636] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-14T17:38:01.390625 #3636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:38:01.390625 #3636] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-14T17:38:01.406250 #3636] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:38:01.406250 #3636] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-14T17:38:01.406250 #3636] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"C"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:38:01.421875 #3636] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-14T17:38:01.421875 #3636] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"B"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:38:01.437500 #3636] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-14T17:38:01.437500 #3636] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"Boo"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:38:01.453125 #3636] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-14T17:38:01.453125 #3636] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Put some apples in a crust and bake!", "Title"=>"Apple Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:38:01.468750 #3636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-14T17:38:01.531250 #3636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-14T17:38:01.546875 #3636] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-14T17:38:01.546875 #3636] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-14T17:38:01.562500 #3636] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Is the Best!", "Title"=>"Cherry Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:38:01.562500 #3636] DEBUG -- : REQUESTING PAGE: GET /Cherry-Pie with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-14T17:38:01.578125 #3636] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-14T17:38:01.593750 #3636] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Is the Best!", "Title"=>"Cherry Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:38:01.593750 #3636] DEBUG -- : REQUESTING PAGE: GET /Cherry-Pie with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-14T17:38:01.593750 #3636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/Cherry-Pie"}
+D, [2010-10-14T17:41:50.984375 #3560] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-14T17:41:51.015625 #3560] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-14T17:41:51.015625 #3560] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:41:51.015625 #3560] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-14T17:41:51.015625 #3560] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:41:51.031250 #3560] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-14T17:41:51.031250 #3560] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"C"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:41:51.031250 #3560] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-14T17:41:51.031250 #3560] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"B"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:41:51.046875 #3560] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-14T17:41:51.046875 #3560] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"recipe", "Title"=>"Boo"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:41:51.046875 #3560] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-14T17:41:51.062500 #3560] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Put some apples in a crust and bake!", "Title"=>"Apple Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:41:51.062500 #3560] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-14T17:41:51.078125 #3560] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2010-10-14T17:41:51.078125 #3560] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-14T17:41:51.093750 #3560] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-14T17:41:51.093750 #3560] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Is the Best!", "Title"=>"Cherry Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:41:51.109375 #3560] DEBUG -- : REQUESTING PAGE: GET /Cherry-Pie with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-14T17:41:51.109375 #3560] DEBUG -- : REQUESTING PAGE: GET /entry with {} and HTTP headers {}
+D, [2010-10-14T17:41:51.109375 #3560] DEBUG -- : REQUESTING PAGE: POST / with {"Recipe"=>"Is the Best!", "Title"=>"Cherry Pie"} and HTTP headers {"HTTP_REFERER"=>"/entry"}
+D, [2010-10-14T17:41:51.125000 #3560] DEBUG -- : REQUESTING PAGE: GET /Cherry-Pie with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2010-10-14T17:41:51.125000 #3560] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/Cherry-Pie"}
