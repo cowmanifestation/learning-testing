@@ -12,6 +12,7 @@ class AppTest < Test::Unit::TestCase
   include Rack::Test::Methods
   include Webrat::Methods
   include Webrat::Matchers
+  #include Webrat::HaveTagMatcher
 
   def app
     Sinatra::Application.new
@@ -91,5 +92,18 @@ class AppTest < Test::Unit::TestCase
 
     click_link "Cancel"
     assert_contain("enter")
+  end
+=begin
+  def test_tag
+    create_and_submit_recipe
+
+    assert_have_tag("li")
+  end
+=end
+  def test_xpath
+    create_and_submit_recipe
+    create_and_submit_recipe("Apple Pie", "Is only good when Lynn makes it.")
+    assert_have_xpath "//ul/li[1][a='Apple Pie']"
+    assert_have_xpath "//ul/li[2][a='Cherry Pie']"
   end
 end
