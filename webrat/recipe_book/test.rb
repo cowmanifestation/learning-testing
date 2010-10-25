@@ -2,6 +2,7 @@ require 'rubygems'
 require 'rack/test'
 require 'webrat'
 require 'test/unit'
+require 'contest'
 require 'app'
 
 Webrat.configure do |config|
@@ -18,37 +19,36 @@ class AppTest < Test::Unit::TestCase
     Sinatra::Application.new
   end
 
-  def setup
+  setup do
     ARGV[0] = "test.store"
+    file = File.new("test.store", "a+")
+    file.close
   end
 
-  def teardown
+  teardown do
     File.delete("test.store")
   end
 
   def create_and_submit_recipe(title="Cherry Pie", recipe="Is the Best!")
     visit "/entry"
-    fill_in "Title", :with => title
-    fill_in "Recipe", :with => recipe
+    fill_in "title", :with => title
+    fill_in "recipe", :with => recipe
     click_button "Submit"
   end
 
-
-  #TODO: create separate pstore for tests only?
-
-  def test_it_works
+  test "can access home page" do
     visit "/"
     assert_contain("Welcome to the Cookbook!")
   end
 
-  def test_form_entry
+  test "can create recipe" do
     title = "Apple Pie"
     recipe = "Put some apples in a crust and bake!"
     create_and_submit_recipe(title, recipe)
     assert_contain(title)
   end
 
-  def test_first_recipe_still_exists_after_adding_second
+  test "first recipe still exists after adding second" do
     ["A", "C", "B", "Boo"].each do |e|
       create_and_submit_recipe(e, "recipe")
     end
@@ -58,11 +58,14 @@ class AppTest < Test::Unit::TestCase
     assert_contain("Boo")
   end
 
-  #TODO
-  #def test_recipes_are_alphabetized
-  #end
+  test "recipe list is in alphabetical order" do
+    create_and_submit_recipe
+    create_and_submit_recipe("Apple Pie", "Is only good when Lynn makes it.")
+    assert_have_xpath "//ul/li[1][a='Apple Pie']"
+    assert_have_xpath "//ul/li[2][a='Cherry Pie']"
+  end
 
-  def test_link_from_list_to_entry
+  test "link from list to entry" do
     visit "/"
     click_link "enter"
 
@@ -70,14 +73,14 @@ class AppTest < Test::Unit::TestCase
     assert_contain("Recipe")
   end
 
-  def test_link_from_list_to_recipe_page
+  test "link from list to recipe page" do
     create_and_submit_recipe
 
     click_link "Cherry Pie"
     assert_contain "Is the Best!"
   end
 
-  def test_link_from_recipe_to_list_page
+  test "link from recipe to list page" do
     create_and_submit_recipe
 
     click_link "Cherry Pie"
@@ -86,24 +89,11 @@ class AppTest < Test::Unit::TestCase
     assert_contain("enter")
   end
 
-  def test_cancel_link_on_entry_page
+  test "cancel link on entry page" do
     visit "/"
     click_link "enter"
 
     click_link "Cancel"
     assert_contain("enter")
-  end
-=begin
-  def test_tag
-    create_and_submit_recipe
-
-    assert_have_tag("li")
-  end
-=end
-  def test_xpath
-    create_and_submit_recipe
-    create_and_submit_recipe("Apple Pie", "Is only good when Lynn makes it.")
-    assert_have_xpath "//ul/li[1][a='Apple Pie']"
-    assert_have_xpath "//ul/li[2][a='Cherry Pie']"
   end
 end

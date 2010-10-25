@@ -2,15 +2,10 @@
   <head>
     <h1>Welcome to the Cookbook!</h1>
   </head>
-    <% if @title %>
-      <% store.transaction { store[@title] = @recipe } %>
-    <% end %>
   <body>
     <ul>
-      <% store.transaction do %>
-        <% store.roots.sort.each do |r| %>
-          <li><a href="/<%= to_uri(r) %>"><%= "#{r}" %></a></li>
-        <% end %>
+      <% recipe_list.each do |r| %>
+        <li><a href="/<%= to_uri(r) %>"><%= "#{r}" %></a></li>
       <% end %>
     </ul>
     <a href="/entry">enter</a>
