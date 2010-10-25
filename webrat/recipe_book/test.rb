@@ -58,14 +58,16 @@ class AppTest < Test::Unit::TestCase
     assert_contain("Boo")
   end
 
-  test "recipe list is in alphabetical order" do
+  test "recipe list is alphabetized" do
     create_and_submit_recipe
     create_and_submit_recipe("Apple Pie", "Is only good when Lynn makes it.")
+    create_and_submit_recipe("Beans", "Are good with rice.")
     assert_have_xpath "//ul/li[1][a='Apple Pie']"
-    assert_have_xpath "//ul/li[2][a='Cherry Pie']"
+    assert_have_xpath "//ul/li[2][a='Beans']"
+    assert_have_xpath "//ul/li[3][a='Cherry Pie']"
   end
 
-  test "link from list to entry" do
+  test "link from list to recipe creation form" do
     visit "/"
     click_link "enter"
 
@@ -73,14 +75,14 @@ class AppTest < Test::Unit::TestCase
     assert_contain("Recipe")
   end
 
-  test "link from list to recipe page" do
+  test "link from list to individual recipe page" do
     create_and_submit_recipe
 
     click_link "Cherry Pie"
     assert_contain "Is the Best!"
   end
 
-  test "link from recipe to list page" do
+  test "link from individual recipe to list page" do
     create_and_submit_recipe
 
     click_link "Cherry Pie"
@@ -89,7 +91,7 @@ class AppTest < Test::Unit::TestCase
     assert_contain("enter")
   end
 
-  test "cancel link on entry page" do
+  test "cancel link on recipe creation page takes you to home page" do
     visit "/"
     click_link "enter"
 
